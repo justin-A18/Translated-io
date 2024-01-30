@@ -30,7 +30,7 @@ export const App = () => {
 	}, [getTextResult, translateText]);
 
 	return (
-		<main className='w-full min-h-screen bg-hero-img bg-cover bg-right flex flex-col items-center justify-end p-3 sm:p-7 font-DM-Sans font-bold'>
+		<main className='w-full min-h-screen hero-img bg-cover bg-right flex flex-col items-center justify-end p-3 sm:p-7 font-DM-Sans font-bold'>
 			<section className='w-full md:w-[90%] lg:w-[60rem] min-h-[30rem] flex flex-col items-center gap-4'>
 				<Logo />
 

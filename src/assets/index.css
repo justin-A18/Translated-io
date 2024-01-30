@@ -5,3 +5,7 @@
 main {
 	overflow-x: hidden;
 }
+
+.hero-img {
+	background-image: url('./assets/hero_img.jpg');
+}

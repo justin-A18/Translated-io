@@ -28,7 +28,7 @@ export const TranslateForm = () => {
 
 					<button className='border-2 p-2 rounded-lg border-[#4D5562]'>
 						<img
-							src='./Copy.svg'
+							src='./assets/Copy.svg'
 							alt='copy'
 						/>
 					</button>
