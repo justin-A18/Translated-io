@@ -14,7 +14,7 @@ export const TranslateCard = () => {
 	};
 
 	return (
-		<article className='bg-[#212936] border-2 border-[#4D5562] rounded-xl min-h-60 p-4 flex flex-col gap-3 bg-opacity-85 mb-5 sm:mb-0'>
+		<article className='bg-[#212936] border-2 border-[#4D5562] rounded-3xl p-7 flex flex-col gap-3 bg-opacity-85 mb-5 sm:mb-0'>
 			<header className='text-[#656B77] w-full flex items-center text-sm gap-1 sm:gap-4 justify-between sm:justify-start'>
 				<button>Detecte Language</button>
 

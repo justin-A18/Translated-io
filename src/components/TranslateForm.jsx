@@ -5,12 +5,13 @@ export const TranslateForm = () => {
 		useTranslate();
 
 	return (
-		<form onSubmit={handleSubmitForm}>
+		<form onSubmit={handleSubmitForm} className='w-full'>
 			<textarea
-				className='resize-none outline-none bg-transparent text-white'
+				className='resize-none outline-none bg-transparent w-full text-white'
 				cols='30'
-				rows='8'
+				rows='6'
 				name='texto'
+				placeholder='Ingrese un texto para traducir'
 				value={inputValue}
 				onChange={handleChangeInput}
 				maxLength={300}></textarea>

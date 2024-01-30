@@ -5,11 +5,11 @@ export const TranslateFormResult = () => {
 	const { textResult, handleReadText } = useContext(TranslateContext);
 
 	return (
-		<div>
+		<div className='w-full'>
 			<textarea
-				className='resize-none outline-none bg-transparent text-white'
+				className='resize-none w-full outline-none bg-transparent text-white'
 				cols='30'
-				rows='8'
+				rows='6'
 				maxLength={300}
 				value={textResult}
 				disabled></textarea>

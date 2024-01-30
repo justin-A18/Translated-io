@@ -14,10 +14,8 @@ export const TranslateResult = () => {
 	};
 
 	return (
-		<article className='bg-[#121826] border-2 border-[#4D5562] rounded-xl min-h-60 p-4 py-5 flex flex-col gap-3 bg-opacity-85'>
+		<article className='bg-[#121826] border-2 border-[#4D5562] rounded-3xl p-7 flex flex-col gap-3 bg-opacity-85'>
 			<header className='text-[#656B77] w-full flex items-center text-sm gap-1 sm:gap-3 justify-between sm:justify-start'>
-				<button>Detecte Language</button>
-
 				<button
 					className={`hover:bg-[#4D5562] rounded-lg hover:text-white p-2 transition-all duration-300 hidden sm:block ${
 						activeLanguage === 'es' ? 'bg-[#4D5562] text-white' : ''
