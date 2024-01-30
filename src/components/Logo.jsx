@@ -3,7 +3,7 @@ export const Logo = () => {
 		<header className='w-44'>
 			<img
 				className='w-full'
-				src='./logo.svg'
+				src='./assets/logo.svg'
 				alt='logo'
 			/>
 		</header>

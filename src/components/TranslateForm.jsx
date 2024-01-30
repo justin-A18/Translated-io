@@ -21,7 +21,7 @@ export const TranslateForm = () => {
 						className='border-2 p-2 rounded-lg border-[#4D5562]'
 						onClick={handleReadButton}>
 						<img
-							src='./sound_max_fill.svg'
+							src='./assets/sound_max_fill.svg'
 							alt='sound'
 						/>
 					</button>
@@ -38,7 +38,7 @@ export const TranslateForm = () => {
 					className='bg-[#3762E4] flex items-center p-3 rounded-xl text-white'
 					type='submit'>
 					<img
-						src='./Sort_alfa.svg'
+						src='./assets/Sort_alfa.svg'
 						alt=''
 					/>
 					<span>Translate</span>

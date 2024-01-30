@@ -20,14 +20,14 @@ export const TranslateFormResult = () => {
 						className='border-2 p-2 rounded-lg border-[#4D5562]'
 						onClick={() => handleReadText(textResult)}>
 						<img
-							src='./sound_max_fill.svg'
+							src='./assets/sound_max_fill.svg'
 							alt='sound'
 						/>
 					</button>
 
 					<button className='border-2 p-2 rounded-lg border-[#4D5562]'>
 						<img
-							src='./Copy.svg'
+							src='./assets/Copy.svg'
 							alt='copy'
 						/>
 					</button>
