@@ -1,8 +1,28 @@
-# React + Vite
+# Traductor de Texto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un traductor de texto simple construido con React. Permite a los usuarios ingresar texto en un idioma, seleccionar un idioma de destino y obtener la traducción correspondiente. También ofrece la opción de escuchar la traducción en voz alta utilizando la API de Text-to-Speech del navegador.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Puedes probar una demostración en línea de la aplicación [aquí](https://translate-io.netlify.app/).
+
+## Características
+
+- Traducción de texto entre diferentes idiomas.
+- Función de Text-to-Speech para escuchar la traducción en voz alta.
+- Interfaz de usuario simple e intuitiva.
+
+## Uso
+
+1. Clona el repositorio: https://github.com/justin-A18/Translated-io.git
+2. Instala las dependencias: npm install o yarn install
+3. Inicia la aplicación: npm start o yarn start
+
+4. Abre tu navegador y visita `http://localhost:3000` para ver la aplicación en acción.
+
+## Tecnologías Utilizadas
+
+- React
+- JavaScript
+- HTML
+- CSS

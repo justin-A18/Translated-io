@@ -5,6 +5,7 @@ import { useState } from 'react';
 export const TranslateProvider = ({ children }) => {
 	const [text, setText] = useState('');
 	const [textResult, setTextResult] = useState('');
+	
 	const [language, setLanguage] = useState('es');
 	const [languageResult, setLanguageResult] = useState('en');
 

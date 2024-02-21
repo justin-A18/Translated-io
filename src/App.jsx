@@ -14,8 +14,8 @@ export const App = () => {
 		const getTranslateText = async () => {
 			if (language !== '' && languageResult !== '' && text !== '') {
 				const { responseData } = await getData(
-					`${TRANSLATE_API_URL}?q=${text} &langpair=${language || 'en'}|${
-						languageResult || 'fr'
+					`${TRANSLATE_API_URL}?q=${text} &langpair=${language || 'es'}|${
+						languageResult || 'en'
 					}`
 				);
 				setTranslateText(responseData.translatedText);
